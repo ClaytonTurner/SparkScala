@@ -1,6 +1,17 @@
+# SBT-specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
 # Scala-specific
-target
 *.class
+*.log
 
 # OS-specific
 .DS_Store
